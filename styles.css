@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 20px;
+    /* background-color: #555; */
+}
+.nav-links a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.nav-links a:hover{
+    color: #0097a7;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url('./pic/pexels-photo-2078266.webp');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container {
+    /* background: rgba(0, 0, 0, 0.5); */
+    position: relative;
+    top: 20%;
+    bottom: 50%;
+    padding: 20px;
+       
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.subtext {
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.progress-bar {
+    background: whitesmoke;
+    border-radius: 20px;
+    width: 40%;
+    margin: 0 auto 20px;
+    height: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    background: #00bcd4;
+    height: 100%;
+    width: 60%; 
+    transition: width 1s ease-in-out;
+}
+
+.number1{
+    position: relative;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -8px;
+    left: 30%;
+
+}
+
+.number2{
+    position: relative;
+    font-size: 12px;
+    text-align: right;
+    margin-top: -12px;
+    right: 30%;
+}
+
+
+.notify-btn {
+    font-size: 15px;
+    margin-top: 25px;
+
+    padding: 8px 24px;
+    border-radius: 5px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.notify-btn:hover {
+    background: #0097a7;
+}
+.socials-icons i {
+    margin: 10px;
+    display: inline-block;
+    font-size: 32px;
+ 
+
+}
+.socials-icons img{
+    width: 30px;
+    height: 30px;
+
+}
+
+hr{
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
+    left:25%;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 6px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
